@@ -224,13 +224,41 @@ ul {
 }
 
 #facts {
-	margin-top:40px;
 	display:flex;
-	justify-content: space-between
+	justify-content: space-between;
+	margin-top:40px;
+	width:100%;
 }
 #facts-content p {
 	line-height:1.4;
 }
-#facts > * {
+#facts div {
 	width: 48%;
 }
+
+@media (max-width: 800px) {
+	#container {
+		width: 100%;
+	}
+	#container > * {
+		width: 90%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+	.services-header-img {
+		display:block;
+		width:90%;
+
+	}
+	.one-service {
+		width:90%;
+		margin:10px auto;
+	}
+	#facts {
+		flex-wrap:wrap;
+	}
+	#facts div {
+		width: 90%;
+		margin-bottom: 20px;
+	}
+  }
