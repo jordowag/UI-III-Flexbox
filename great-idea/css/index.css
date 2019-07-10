@@ -73,13 +73,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /*  Title */
-h1 {
+#index-header {
 	font-size:70px;
 	margin-bottom:20px;
 }
 
 header {
-	margin-bottom:80px;
+	margin-bottom:20px;
 }
 
 /* Navbar */ 
@@ -138,7 +138,7 @@ nav a {
 }
 
 /* Main section */
-section { 
+.main { 
 	display:flex;
 	flex-wrap:wrap;
 	margin: 2% 0%;
@@ -189,4 +189,48 @@ footer p {
 	width:183px;
 	height:36px;
 	background-image:url("../img/logo.png");
+}
+
+.services-header-img {
+	margin: 20px auto;
+	width:1000px;
+}
+
+#services-title {
+	font-size:20px;
+}
+
+#all-services {
+	border-top: 1px solid black;
+	border-bottom: 3px solid black;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.one-service {
+	width:47%;
+	margin: 3% 0;
+	border: 1px solid black;
+	padding:30px;
+}
+
+ul {
+	list-style-type:square;
+	margin-top: 15px;
+	margin-left:15px;
+	line-height: 2;
+}
+
+#facts {
+	margin-top:40px;
+	display:flex;
+	justify-content: space-between
+}
+#facts-content p {
+	line-height:1.4;
+}
+#facts > * {
+	width: 48%;
 }
