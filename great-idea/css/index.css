@@ -191,6 +191,7 @@ footer p {
 	background-image:url("./img/logo.png");
 }
 
+/* Services page */ 
 .services-header-img {
 	margin: 20px auto;
 	width:1000px;
@@ -199,6 +200,8 @@ footer p {
 #services-title {
 	font-size:20px;
 }
+
+/* Section containing all types of services */
 
 #all-services {
 	border-top: 1px solid black;
@@ -209,18 +212,12 @@ footer p {
 	margin-bottom: 20px;
 }
 
+/* Single Service*/
 .one-service {
 	width:47%;
 	margin: 3% 0;
 	border: 1px solid black;
 	padding:30px;
-}
-
-ul {
-	list-style-type:square;
-	margin-top: 15px;
-	margin-left:15px;
-	line-height: 2;
 }
 
 #facts {
@@ -235,6 +232,14 @@ ul {
 #facts div {
 	width: 48%;
 }
+
+ul {
+	list-style-type:square;
+	margin-top: 15px;
+	margin-left:15px;
+	line-height: 2;
+}
+
 /* Mobile view */
 @media (max-width: 800px) {
 	#container {
